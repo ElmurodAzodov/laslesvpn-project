@@ -140,5 +140,18 @@ nav > .menu {
 
 .features-content {
   width: 560px;
-  height: 463px;
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.features-list > li {
+  list-style: none;
+  padding: 5px;
+}
+
+.features-list > li > img {
+  width: 12px;
+  margin-right: 10px;
 }
