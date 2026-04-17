@@ -88,6 +88,7 @@ nav > .menu {
   background-color: #f53855;
   color: #fff;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 /* status-container */
