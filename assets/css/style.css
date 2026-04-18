@@ -156,3 +156,58 @@ nav > .menu {
   width: 12px;
   margin-right: 10px;
 }
+
+/* pricing */
+
+.section {
+  width: 100%;
+  min-width: 1280px;
+  height: 2862px;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+
+.pricing li {
+  list-style: none;
+}
+
+.card > ul > li > img {
+  width: 12px;
+}
+
+.pricing .pricing-container {
+  width: 1152px;
+  height: 882px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pricing .pricing-container .card {
+  width: 330px;
+  height: 760px;
+  border: 2px solid #dddddd;
+  border-radius: 12px;
+  padding: 16px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card > img {
+  width: 145px;
+  height: 165px;
+  text-align: center;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card > button {
+  padding: 8px 32px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  border-radius: 10px;
+  cursor: pointer;
+}
