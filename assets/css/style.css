@@ -203,14 +203,11 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 .card > img {
   width: 145px;
   height: 165px;
-  text-align: center;
-}
-
-.card h3 {
   text-align: center;
 }
 
@@ -220,6 +217,12 @@ p {
   color: #f53855;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.card > button:hover {
+  transition: 0.5;
+  background-color: #f53855;
+  color: snow;
 }
 
 .pricing-container > .card:hover {
